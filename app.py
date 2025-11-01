@@ -17,8 +17,8 @@ app = Flask(__name__)
 
 # Configure CORS for production
 ALLOWED_ORIGINS = [
-    'https://phishformer-fromt.onrender.com',  # Your frontend URL
-    'https://phish66.netlify.app',
+    'https://phishformer-fromt.onrender.com',
+    'https://phish-backend-1-6ovh.onrender.com',
     'http://localhost:3000',
     'http://localhost:5000'
 ]
