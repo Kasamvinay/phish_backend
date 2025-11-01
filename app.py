@@ -18,10 +18,10 @@ app = Flask(__name__)
 # Configure CORS for production
 ALLOWED_ORIGINS = [
     'https://phish66.netlify.app',
+    'https://phishformer-fromt.onrender.com',  # Your new frontend URL
     'http://localhost:3000',
     'http://localhost:5000'
 ]
-
 CORS(app, resources={
     r"/*": {
         "origins": ALLOWED_ORIGINS,
